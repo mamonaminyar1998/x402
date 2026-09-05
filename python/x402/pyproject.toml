@@ -18,8 +18,8 @@ dependencies = [
     "flask>=3.0.0",
     "pydantic>=2.10.3",
     "pydantic-settings>=2.2.1",
-    "python-dotenv>=1.0.1",
-    "web3>=6.0.0",
+    "python-dotenv>=1.2.2",
+    "web3>=7.15.0",
 ]
 
 [project.scripts]
@@ -31,7 +31,7 @@ build-backend = "hatchling.build"
 
 [dependency-groups]
 dev = [
-    "pytest>=8.3.5",
+    "pytest>=9.0.3",
     "pytest-asyncio>=1.0.0",
     "ruff>=0.11.9",
 ]
